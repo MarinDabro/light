@@ -18,7 +18,6 @@ p {
     margin: 0 10px;
     animation-name: lights;
     animation-duration: 0.9s;
-    animation-fill-mode: backwards;
     animation-iteration-count: infinite;
     animation-play-state: running;
 }
