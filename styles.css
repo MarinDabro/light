@@ -20,7 +20,7 @@ p {
     animation-duration: 0.9s;
     animation-fill-mode: backwards;
     animation-iteration-count: infinite;
-    animation-play-state: paused;
+    animation-play-state: running;
 }
 
 @keyframes lights {
@@ -59,6 +59,3 @@ p {
     animation-delay: 0.7s;
 }
 
-body:hover p {
-    animation-play-state: running;
-}
