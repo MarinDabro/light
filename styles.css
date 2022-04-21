@@ -1,0 +1,64 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    height: 100vh;
+    background-color: #262626;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+p {
+    color: #484848;
+    font-size: 80px;
+    margin: 0 10px;
+    animation-name: lights;
+    animation-duration: 0.9s;
+    animation-fill-mode: backwards;
+    animation-iteration-count: infinite;
+    animation-play-state: paused;
+}
+
+@keyframes lights {
+    10% {
+        color: #fff900;
+        text-shadow: 2px 2px 10px #ff6c00,
+        -2px -2px 10px #ff6c00;
+    }
+
+    20% {
+        color: #484848;
+        text-shadow: none;
+    }
+
+}
+
+.p2 {
+    animation-delay: 0.1s;
+}
+.p3 {
+    animation-delay: 0.2s;
+}
+.p4 {
+    animation-delay: 0.3s;
+}
+.p5 {
+    animation-delay: 0.4s;
+}
+.p6 {
+    animation-delay: 0.5s;
+}
+.p7 {
+    animation-delay: 0.6s;
+}
+.p8 {
+    animation-delay: 0.7s;
+}
+
+body:hover p {
+    animation-play-state: running;
+}
